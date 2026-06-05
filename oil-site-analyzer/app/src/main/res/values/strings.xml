@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">محلل المواقع النفطية</string>
+    <string name="home_subtitle">التحليل الهندسي للمعدات النفطية بالذكاء الاصطناعي</string>
+    <string name="capture_image">التقاط صورة</string>
+    <string name="select_from_gallery">اختر من المعرض</string>
+    <string name="or_label">— أو —</string>
+    <string name="settings">الإعدادات</string>
+    <string name="camera_title">الكاميرا</string>
+    <string name="analysis_title">تحليل الصورة</string>
+
+    <string name="supported_equipment">المعدات المدعومة</string>
+    <string name="equipment_list">
+        • الهيترات (Heaters) — حرارة الباث، الدخول، الخروج\n
+        • الفواصل (Separators) — ضغط وحرارة ومستوى\n
+        • الخزانات (Tanks) — مستوى الخزان\n
+        • عدادات التدفق (Flow Meters)\n
+        • عدادات الضغط (Pressure Gauges)\n
+        • لوحات التحكم (Control Panels)
+    </string>
+
+    <string name="camera_instruction">وجّه الكاميرا على العدادات أو لوحة التحكم بوضوح</string>
+    <string name="back">رجوع</string>
+    <string name="capture">التقاط</string>
+    <string name="captured_image">الصورة الملتقطة</string>
+
+    <string name="analyzing_image">جاري تحليل الصورة هندسياً…</string>
+    <string name="no_readings_found">لم يتم التعرف على قراءات في هذه الصورة.\nتأكد من وضوح الصورة واقتراب الكاميرا من العدادات.</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="error_prefix">خطأ: %1$s</string>
+
+    <string name="status_all_normal">✓ جميع القراءات ضمن الحدود الطبيعية</string>
+    <string name="status_warnings_found">⚠ توجد تحذيرات — مراجعة مطلوبة</string>
+    <string name="status_critical_found">⛔ قراءات حرجة — تدخل فوري مطلوب</string>
+    <string name="status_unknown">غير معروف</string>
+
+    <string name="no_api_key_message">لم يتم ضبط مفتاح API. يرجى إضافته في الإعدادات.</string>
+
+    <!-- Settings -->
+    <string name="settings_api_title">مفتاح Claude API</string>
+    <string name="settings_api_description">يحتاج التطبيق إلى مفتاح Claude API لتحليل الصور. يُخزَّن المفتاح بشكل آمن ومشفر على جهازك.</string>
+    <string name="api_key_hint">أدخل مفتاح API هنا…</string>
+    <string name="save_api_key">حفظ المفتاح</string>
+    <string name="api_key_saved">✓ مفتاح API محفوظ</string>
+    <string name="api_key_not_set">⚠ لم يتم ضبط مفتاح API</string>
+    <string name="api_key_invalid">المفتاح غير صالح — تأكد من نسخه كاملاً</string>
+    <string name="api_key_saved_toast">تم حفظ المفتاح بنجاح</string>
+    <string name="how_to_get_key">كيف أحصل على مفتاح API؟</string>
+    <string name="api_key_instructions">
+        1. افتح console.anthropic.com\n
+        2. سجّل دخول أو أنشئ حساباً\n
+        3. اذهب إلى API Keys\n
+        4. انقر Create Key\n
+        5. انسخ المفتاح وألصقه هنا
+    </string>
+
+    <string name="camera_permission_denied">تم رفض إذن الكاميرا</string>
+    <string name="capture_failed">فشل الالتقاط: %1$s</string>
+</resources>
