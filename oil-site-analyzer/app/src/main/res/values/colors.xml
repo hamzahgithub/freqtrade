@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="petroleum_dark">#1A2332</color>
+    <color name="petroleum_accent">#F4A81D</color>
+    <color name="petroleum_mid">#2C3E50</color>
+
+    <!-- Background -->
+    <color name="background_dark">#121B27</color>
+    <color name="card_background">#1E2D3D</color>
+
+    <!-- Text -->
+    <color name="text_primary">#ECEFF1</color>
+    <color name="text_secondary">#90A4AE</color>
+
+    <!-- Status: Normal (green) -->
+    <color name="status_normal_bg">#E8F5E9</color>
+    <color name="status_normal_text">#2E7D32</color>
+
+    <!-- Status: Warning (amber) -->
+    <color name="status_warning_bg">#FFF8E1</color>
+    <color name="status_warning_text">#F57F17</color>
+
+    <!-- Status: Critical (red) -->
+    <color name="status_critical_bg">#FFEBEE</color>
+    <color name="status_critical_text">#C62828</color>
+
+    <!-- Status: Underheat (blue) -->
+    <color name="status_underheat_bg">#E3F2FD</color>
+    <color name="status_underheat_text">#1565C0</color>
+
+    <!-- Status: Unknown (grey) -->
+    <color name="status_unknown_bg">#F5F5F5</color>
+    <color name="status_unknown_text">#616161</color>
+
+    <!-- System (required by themes) -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

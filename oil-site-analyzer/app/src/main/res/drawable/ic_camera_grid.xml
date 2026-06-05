@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="400dp"
+    android:viewportWidth="300"
+    android:viewportHeight="400">
+    <!-- 3x3 grid lines for camera alignment -->
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="1"
+        android:pathData="M100,0 L100,400" android:fillColor="@android:color/transparent"/>
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="1"
+        android:pathData="M200,0 L200,400" android:fillColor="@android:color/transparent"/>
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="1"
+        android:pathData="M0,133 L300,133" android:fillColor="@android:color/transparent"/>
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="1"
+        android:pathData="M0,267 L300,267" android:fillColor="@android:color/transparent"/>
+</vector>

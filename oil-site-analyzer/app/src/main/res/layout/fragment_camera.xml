@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/view_finder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Grid overlay for alignment -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_camera_grid"
+        android:alpha="0.25"
+        android:contentDescription="@null" />
+
+    <!-- Capture instructions -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="24dp"
+        android:text="@string/camera_instruction"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        android:background="#88000000"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="6dp"
+        android:gravity="center" />
+
+    <!-- Bottom controls -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="24dp"
+        android:background="#88000000">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/ic_arrow_back"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:tint="#FFFFFF"
+            android:contentDescription="@string/back" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/btn_capture"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/ic_capture_button"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/capture" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <!-- Spacer to balance layout -->
+        <View
+            android:layout_width="56dp"
+            android:layout_height="56dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

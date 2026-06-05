@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.OilSiteAnalyzer" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/petroleum_dark</item>
+        <item name="colorPrimaryVariant">@color/petroleum_mid</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+        <item name="colorSecondary">@color/petroleum_accent</item>
+        <item name="colorSecondaryVariant">@color/petroleum_accent</item>
+        <item name="colorOnSecondary">@color/petroleum_dark</item>
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/card_background</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:statusBarColor">@color/petroleum_dark</item>
+        <item name="android:navigationBarColor">@color/petroleum_dark</item>
+        <item name="android:layoutDirection">rtl</item>
+    </style>
+</resources>
